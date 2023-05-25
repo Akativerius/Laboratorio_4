@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Nosotros</title>
+    <style>
+        body{font-family: monospace;background-color: black}
+        h1{text-align: center;color: white;font-size: 30px;}
+        .flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 1px solid silver;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.nowrap  { 
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+.flex-item {
+  background: rgb(249, 41, 4) linear-gradient(rgb(249, 41, 4), black);
+  padding: 5px;
+  width: 500px;
+  height: auto;
+  margin: 10px;
+  
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+    <h1>Acerca de Nosotros</h1>
+    <p><ul class="flex-container nowrap">
+        <li class="flex-item"><h1 style="text-align: center;">Hogier Delgado</h1><p>Tengo 21 años, estudio Ingenieria de Software, me gustan las artes marciales.</p></li>
+        <li class="flex-item"><H1>Agustin Zuñiga</H1> <p>Soy Agustin Zuñiga, tengo 20 años y estudio ing. De software, me gustan los videojuegos y la música</p></li>
+        <li class="flex-item"><h1>Héctor Herrera</h1>Soy Héctor Herrera, tengo 19, me gusta la música.</li>
+       
+      </ul>
+    </p>
+</body>
+</html>
